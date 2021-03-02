@@ -11,7 +11,7 @@ import "../styles/index.scss";
 
 export function SimpleCounter(props) {
 	return (
-		<div className="counter">
+		<div className="counter d-flex flex-row">
 			<div className="calendar">
 				<i className="fas fa-clock"></i>
 			</div>
