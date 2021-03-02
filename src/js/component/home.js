@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "./card";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -10,6 +11,10 @@ export function Home() {
 			<h1>Hello Rigo!</h1>
 			<p>
 				<img src={rigoImage} />
+				<Card
+					imageUrl="http://via.placeholder.com/350x150"
+					title="A nice image"
+				/>
 			</p>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working
